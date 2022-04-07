@@ -9,7 +9,7 @@ module.exports = {
         new ModuleFederationPlugin({
             name: 'container',
             remotes: {
-                microFrontEnd1: 'reatilLocatorPlugin@http://localhost:8081/remoteEntry.js',
+                retailLocatorPlugin: 'reatilLocatorPlugin@http://localhost:8081/remoteEntry.js',
             },
         }),
 
